@@ -8,6 +8,8 @@ public class Factorial {
     public static void main(String[] args) throws IOException {
         int factorialNumber;
 
+        System.out.println("Enter a number: ");
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         factorialNumber = Integer.parseInt(br.readLine());
         System.out.println("Factorial (recursion): " + factorialRecursion(factorialNumber));
